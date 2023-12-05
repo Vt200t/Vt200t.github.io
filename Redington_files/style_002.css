@@ -1,0 +1,603 @@
+@charset "utf-8";
+
+@-ms-viewport {
+  width: device-width;
+}
+
+img {
+  max-width: 100%;
+  display: inherit;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient( to right, #edf2f5, #ffffff, #edf2f5);
+}
+body.home {
+  background: transparent;
+}
+.wrapper {
+  padding: 0 15px;
+}
+
+.m-search {
+  position: absolute;
+  top: 52%;
+  transform: translateY(-50%);
+  right: 15px;
+}
+
+/* solution-page */
+
+
+/* other-pages */
+
+/* video-sections */
+/* #tech-services{
+  padding-bottom: 0px;
+} */
+
+/* .video-overlay .modal, .about-video-wrapper .modal {
+  background: #000000de;
+}
+video#myPoup {
+  height: 100% !important;
+  width: 100% !important;
+}
+.video-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  overflow: hidden;
+  width: 60vw;
+  height: 80vh;
+} */
+.headings{
+  /*text-transform: capitalize;*/
+  font-weight: 400;
+}
+
+
+
+/* getintouch */
+
+/* case-study section */
+
+/* .solution #case-study {
+  padding-bottom: 10px;
+} */
+.back-to-top img {
+	border: 1px solid #1d8142;
+	padding: 12px;
+	border-radius: 50%;
+}
+
+.common-top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 15px;
+}
+.top-right .lang-changes ul li a {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.top-right .lang-changes ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: #f4f4f4;
+    z-index: 9999;
+    right: -4%;
+    padding: 20px;
+    top: 100%;
+}
+.top-right .lang-changes li:hover ul {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.mega-menus{
+  z-index: 9;
+}
+
+/* inner-contact-form */
+/* .twoSide_tabs .content_wrapper {
+  z-index: 9;
+  position: relative;
+} */
+@media (max-width: 1600px) and (min-width: 768px) {
+  .headings{
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    .slide_sec img{
+    height: 100vh;
+    }
+
+    #banner_sec {
+    height: calc(100vh - 40px);
+    overflow: hidden;
+    }
+    .nav_sec li:hover a:after {
+    display: block !important;
+    }
+}
+
+/*---------------------------------------------------
+------------- #experts-service-section-in-BPM-page */
+
+/* .expert-content {
+  margin-bottom: 60px;
+} */
+/*---------------------------------------------------
+------------- #experts-service-section-end-in-BPM-page */
+
+
+
+/* logistics-service-page */
+
+/* Xass-service-page */
+
+
+/* redington-online service page */
+
+/* brand-partners page */
+
+
+/* brands-without-slider */
+
+/* training-aos-page */
+
+
+/* csr-page-css */
+
+/* privacy policy page */
+/* .cpartner_pillers .row{
+  margin-top: 80px;
+} */
+p + p {
+  margin-top: 10px; 
+}
+
+
+/* Solution offering section */
+.header-in.flex-distance {
+	justify-content: flex-start;
+}
+
+/* investors page css */
+/* Responsive-css */
+@media only screen and (max-width: 1400px) {
+  .dropdown{
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #header{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .menu__burger {
+    box-shadow: 0px 31px 21px 16px #22222238;
+    -webkit-box-shadow:0px 31px 21px 16px #22222238;
+    -moz-box-shadow:0px 31px 21px 16px #22222238;
+}
+aside.nav_sec .menu-item-has-children {
+  padding-right: 30px;
+}
+aside.nav_sec .menu-item-has-children:after {
+  display: block;
+  content: '\f107';
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  font-family: 'FontAwesome';
+}
+  .menu__burger .search_icon {
+    display: none;
+  }
+
+  .headings {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (max-width: 767px) {
+#what-sets-us-apart{
+  width: 100%;
+}
+    /* .expert-content {
+    min-height: 320px;
+    } */
+    .headings{
+    line-height: 40px;
+    font-size: 26px;
+    }
+}
+@media only screen and (max-width: 639px) {
+  #what-sets-us-apart .col-8 {
+    width: 87%;
+}
+}
+@media only screen and (max-width: 479px) {
+  .common-top-header{
+    gap: 5px;
+  }
+  .common-top-header a:before {
+    width: 15px;
+    height: 15px;
+}
+  .top_bar_nav a{
+    gap: 5px;
+  }
+
+}
+
+
+
+.mega-menus .tabcontent{
+  display: none;
+}
+
+.mega-menus .tabcontent.active{
+  display:block;
+}
+li.sub-menu-parent {
+  position: unset;
+}
+.sub-menu-parent .mega-menus {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #c3c4c5;
+  /* background: linear-gradient( to right, #edf2f5, #edf2f5, #edf2f5); */
+  background: #fff;
+  z-index: 99;
+  display: none;
+  width: 100%;
+  padding: 0px;
+  top: 75px;
+  box-shadow: 10px 4px 29px #c3c4c596;
+}
+.mega-menus .left-tabs {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 40px 30px;
+  gap: 10px;
+}
+.mega-menus  .content_wrapper {
+  display: inline-block;
+  padding: 40px 30px;
+  min-height: 420px;
+  border-left: 1px solid #c3c4c5;
+  width: 100%;
+}
+/* .mega-menus .content_wrapper .tabs-part {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+} */
+.mega-menus .content_wrapper .tabs-part ul li {
+  width: 50%;
+}
+.mega-menus .content_wrapper .tabs-part a {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.mega-menus .left-tabs li{
+  font-size: 17px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.mega-menus .content_wrapper .tabs-part a:hover, .mega-menus .left-tabs li:hover{
+  color: #019046;
+}
+.mega-menus .left-tabs li.show{
+  font-size: 18;
+  color: #019046;
+}
+.mega-menus .content_wrapper .tabs-part ul{
+  position: relative;
+}
+/* .mega-menus .content_wrapper .tabs-part ul:last-child {
+  padding-bottom: 60px;
+}
+
+.mega-menus .content_wrapper .tabs-part ul:last-child .view-all{
+  position: absolute;
+  bottom: 10px;
+} */
+
+.mega-menus .content_wrapper .tabs-part .view-all a {
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  color: #019046 !important;
+  font-size: 17px;
+  align-items: center;
+}
+.mega-menus .content_wrapper .tabs-part .view-all a:after {
+  display: inline-block;
+  content: '\f105';
+  font-family: 'FontAwesome';
+  padding-left: 8px;
+}
+.mega-menus .container {
+  position: relative;
+}
+.menu-closeBtn {
+  position: absolute;
+    max-width: 40px;
+    top: 20px;
+    right: -24px;
+    cursor: pointer;
+}
+.mega-menus .content_wrapper a {
+  color: #000 !important;
+}
+.mega-menus .content_wrapper a:hover {
+  color: #019046!important;
+}
+@media only screen and (min-width: 1024px) {
+li.sub-menu-parent .navclk .mobile-toggle {
+  display: none;
+}
+}
+@media only screen and (max-width: 1023px) {
+.mega-menus {
+  position: relative;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.desktop-view-only, .menu-closeBtn{
+  display: none;
+}
+.mega-menus .content_wrapper {
+  padding: 15px 0px 0px 50px;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  min-height: auto;
+}
+li.sub-menu-parent .navclk {
+  display: flex;
+  justify-content: space-between;
+}
+li.sub-menu-parent {
+  position: unset;
+  padding-right: 10px;
+}
+.mega-menus .col-xl-9 {
+  padding: 0px 0px 0px 6px;
+}
+.mega-menus .content_wrapper .tabs-part {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.mega-menus .content_wrapper .tabs-part ul li {
+  width: 100%;
+}
+.dropdown {
+  padding: 0px 10px 0px 50px;
+}
+.nav_sec li a:before{
+  display: none;
+}
+.menu__burger{
+  max-height: 90vh;
+}
+}
+
+
+/* test-header-css */
+.mobile-menu-outer .view-all a {
+  color: #016c39!important;
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  #mobile_accordian {
+    display: none;
+  }
+
+}
+  @media only screen and (max-width: 1023px) {
+    .desktop-header {
+      display: none !important;
+    }
+    #mobile_accordian {
+      position: absolute;
+      background:#fff;
+      box-shadow:-1px 19px 13px -1px rgb(0 0 0 / 40%);
+      left: -450px;
+      width: 320px;
+      height: 90vh;
+      overflow-y:auto ;
+      top: 120%;
+      transition: all 0.75s;
+      -webkit-transition: all 0.75s;
+      -moz-transition: all 0.75s;
+      -ms-transition: all 0.75s;
+  }
+  .mobile-menu-outer {
+    display: inline-block;
+    height: 70vh;
+    overflow-y: auto;
+    padding: 20px 20px 30px 30px;
+}
+    #mobile_accordian ul ul{
+      display: none;
+    }
+    #mobile_accordian ul ul {
+      padding-left: 15px;
+     }
+     #mobile_accordian li a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 0px;
+    }
+    #mobile_accordian li a i{
+      transition: all 0.15s;
+      -webkit-transition: all 0.15s;
+      -moz-transition: all 0.15s;
+      -ms-transition: all 0.15s;
+    }
+  }
+
+
+  /*Internal CSS*/
+  /*investor overview start*/
+
+/*end investor overview*/
+
+/*inverstors relations contacts start*/
+/*end inverstors relations contacts*/
+
+/*investors overview new corporate anno start*/
+/*end investors overview new corporate anno*/
+
+/*shareholders information start*/
+/*end shareholders information*/
+
+/*shareholders information start*/
+/*end shareholders information*/
+
+
+
+/*about us start*/
+@media (max-width: 992px){
+/* .video_wrapper_about .content{content: unset; background:unset; left: 8%; }*/
+}
+
+/*end about us*/
+
+
+/*new mega menu start*/
+.mega-menus-hybrid-infra h2{ font-weight: normal; font-size: 17px;
+  line-height: 30px; }  
+  .mega-menus-hybrid-infra p{ font-weight: normal; font-size: 14px;
+   }      
+/*end new mega menu*/
+
+/*global structure start*/
+/*end global structure*/
+
+.slick-track{
+     margin-left:auto!important; margin-right:auto!important;
+}
+/*Sticky form start here*/
+	.closebtn {    position: absolute;    right: 15px;    top: 15px;    cursor: pointer; font-size: 20px; color: #fff; text-decoration: none;}
+	
+	/* The container */
+
+/* Hide the browser's default checkbox */
+/* Create a custom checkbox */
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a blue background */
+/* Create the checkmark/indicator (hidden when not checked) */
+/* Show the checkmark when checked */
+/* Style the checkmark/indicator */	
+*{outline:none;}
+*:focus{outline:none;}
+
+	@media only screen and (max-width: 580px){
+		.top_bar_nav a {
+    font-size: 10px;
+}	
+		
+	
+		
+	} 
+
+
+/*brand new brand css start  */
+	  @media only screen and (max-width: 402px) {
+		  .lang-changes.common-top-header >li:first-child { display:block;}
+	 .top_bar_nav a {
+    font-size: 9px;
+}
+#top_bar .wrapper {
+    padding: 0 4px;
+}
+	  }
+	  
+		
+	
+/*end brand new brand css*/
+
+/*turkey css start  */
+
+/*end turkey css  */
+input:-webkit-autofill{ background-color:transparent!important;
+}
+
+
+/*media page css start*/
+
+   /*.office_warpper .filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.office_warpper .filter .fields {
+    padding: 0px 20px 0px 0px;
+    border: 1px solid #019047;
+    border-radius: 100px;
+}
+.office_warpper .filter .fields select {
+    border-color: #ffffff94;
+    font-size: 16px;
+    width: 180px;
+    background: transparent !important;
+}*/
+
+  /*end media page css*/
+
+/*case studies page css start*/
+/*end case studies page css*/
+
+/*case studies listing page css start*/
+/*end case studies listing page css*/
+
+.has__sub__menu { position:relative;}
+.top-right .lang-changes ul.submenutop_submenu     {display: none;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    z-index: 9999;
+    left:10px;
+    padding: 18px 25px; width:200px;
+    top:23px;
+}
+.submenutop_submenu li a {
+    display: inline-block;
+    margin-bottom: 10px;     color: #000;
+}
+.has__sub__menu:hover .submenutop_submenu  {display:block;}
+
+	.submenutop_submenu li a {  font-weight: 300;  position: relative;   outline: none;    display: block;  color: #000; padding: 5px 0;
+    margin: 0;}
+		body {overflow-x:hidden;}
+
+
+
+
+
